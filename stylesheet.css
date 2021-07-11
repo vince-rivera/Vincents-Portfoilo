@@ -5,25 +5,31 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    background-color: slategrey;
 }
+body{
+    background-color: grey;
+}
+/*Header/Navigation*/
 li, a, button, h1 {
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
 }
 header {
+    background-image: url(./assets/For\ the\ Horde.jpg) ;
+    background-position: center;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: nowrap;
     padding: 20px 10%;
+    position: sticky;
 }
 .title {
     margin-right: auto;
-
+    font-size: 34px;
 
 }
 .navigation {
@@ -51,5 +57,36 @@ button {
 button:hover {
     background-color: rgba(209, 4, 4, 0.8);
 
+}
+/*End Header/Navigation*/
+
+/*About Me Stlye*/
+
+
+.me h2 {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px auto 20px auto;
+}
+.gaming {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.words {
+    color: whitesmoke;
+    display: flex;
+    width: 35%;
+    font-size: 20px;
+    
+}
+.shaman {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 10%;
+    padding-right: 20px;
 }
 
